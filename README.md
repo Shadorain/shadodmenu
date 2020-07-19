@@ -2,4 +2,4 @@
 My dmenu config and scripts
 
 ## Screenshots
-[Shadodmenu Image](shadodmenu.png)
+![Displays shadodmenu with many of its patched features](shadodmenu.png)
