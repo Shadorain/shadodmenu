@@ -4,23 +4,23 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Source Code Pro:pixelsize=14:weight=40:antialias=true:autohint=true"
+	"Source Code Pro:pixelsize=14:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 
 // Define color variables
 static const char fg[]    = "#e3c7fc";
 static const char bg[]    = "#0d0d14";
-static const char gray[]  = "#242438";
-static const char pink[]  = "#ff79c6";
-static const char mint[]  = "#5ADECD";
-static const char pred[]  = "#943d84";
+static const char gray[]  = "#191926";
+static const char pred[]  = "#E9729D";
+static const char mint[]  = "#bd93f9";
+static const char pink[]  = "#FF4971";
 
 static const char *colors[SchemeLast][2] = {
 	/*                        fg    bg    */
 	[SchemeNorm]          = { fg,   bg   },
 	[SchemeSel]           = { pink, gray },
-	[SchemeSelHighlight]  = { pink, gray },
+	[SchemeSelHighlight]  = { mint, gray },
 	[SchemeNormHighlight] = { mint, bg   },
 	[SchemeOut]           = { bg,   mint },
 	[SchemeMid]           = { pred, bg   },
